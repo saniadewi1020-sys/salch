@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kecantikan Bunga Mawar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONT POPPINS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: linear-gradient(180deg, #ffb3c6, #ff758f);
+      color: #3a0f1c;
+      line-height: 1.8;
+    }
+
+    /* COVER */
+    .cover {
+      height: 100vh;
+      background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .cover::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 105, 135, 0.5);
+    }
+
+    .cover-text {
+      position: relative;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      animation: fadeDown 1.5s ease;
+    }
+
+    .cover-text h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+    }
+
+    .cover-text p {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+
+    .scroll-btn {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 25px;
+      background: white;
+      color: #ff4d6d;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      animation: bounce 2s infinite;
+    }
+
+    /* SECTION */
+    section {
+      padding: 50px 20px;
+      animation: fadeUp 1.2s ease;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #8b0f2c;
+    }
+
+    .content {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 25px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+    }
+
+    /* CREDIT */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: white;
+      background: rgba(0,0,0,0.2);
+    }
+
+    /* ANIMASI */
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+      40% { transform: translateY(-8px); }
+      60% { transform: translateY(-4px); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- COVER -->
+  <div class="cover">
+    <div class="cover-text">
+      <h1>Kecantikan Bunga Mawar</h1>
+      <p>Keindahan yang lembut, elegan, dan penuh makna</p>
+      <a href="#tema1" class="scroll-btn">Jelajahi</a>
+    </div>
+  </div>
+
+  <!-- TEMA 1 -->
+  <section id="tema1">
+    <h2>1. Mawar sebagai Simbol Kecantikan Alami</h2>
+    <div class="content">
+      <p>
+        Bunga mawar dikenal sebagai lambang kecantikan alami yang tidak berlebihan. 
+        Setiap kelopaknya tersusun rapi, membentuk harmoni yang menenangkan mata.
+        Gadis manis yang menyukai bunga mawar biasanya mengagumi keindahan yang sederhana namun bermakna.
+      </p>
+      <p>
+        Warna mawar yang lembut mencerminkan keanggunan, sementara durinya mengajarkan bahwa 
+        kecantikan sejati tetap memiliki batas dan ketegasan. Mawar tidak hanya indah dipandang,
+        tetapi juga mengandung filosofi kehidupan.
+      </p>
+    </div>
+  </section>
+
+  <!-- TEMA 2 -->
+  <section>
+    <h2>2. Mawar dan Kelembutan Hati</h2>
+    <div class="content">
+      <p>
+        Kecantikan bunga mawar juga terletak pada maknanya yang dalam. 
+        Gadis yang menyukai mawar biasanya memiliki hati yang lembut dan penuh empati.
+        Mawar mengajarkan bahwa kelembutan bukanlah kelemahan, melainkan kekuatan yang menenangkan.
+      </p>
+      <p>
+        Aroma mawar yang khas mampu menghadirkan ketenangan, seperti kehadiran seseorang
+        yang membawa rasa nyaman tanpa banyak kata.
+      </p>
+    </div>
+  </section>
+
+  <!-- TEMA 3 -->
+  <section>
+    <h2>3. Mawar dan Keteguhan Diri</h2>
+    <div class="content">
+      <p>
+        Di balik kelopak yang lembut, mawar memiliki duri yang melindunginya.
+        Hal ini melambangkan keteguhan diri seorang gadis yang manis namun tahu batas.
+      </p>
+      <p>
+        Mawar tumbuh dengan anggun meski menghadapi cuaca dan lingkungan yang berbeda.
+        Begitu pula manusia, tetap bisa indah meski berada dalam situasi sulit.
+      </p>
+    </div>
+  </section>
+
+  <!-- TEMA 4 -->
+  <section>
+    <h2>4. Mawar sebagai Inspirasi Kehidupan</h2>
+    <div class="content">
+      <p>
+        Mawar mengajarkan bahwa proses adalah bagian dari kecantikan. 
+        Dari kuncup kecil hingga mekar sempurna, semuanya membutuhkan waktu dan kesabaran.
+      </p>
+      <p>
+        Gadis yang menyukai mawar biasanya menghargai proses, tidak tergesa-gesa,
+        dan percaya bahwa setiap usaha akan berbuah indah pada waktunya.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © Salmaa 11 12
+  </footer>
+
+</body>
+</html>
